@@ -1,8 +1,8 @@
-# Modelo de datos y contrato de datos
+# Modelo de Datos y Contrato de Datos
 
-Este es un **dataset** (archivos relacionados entre sí), no una base de datos. Cada archivo se describe con sus columnas, tipos, significado y relaciones.
+Este es un **dataset**, no una base de datos. Cada archivo se describe con sus columnas, tipos, significado y relaciones.
 
-<!-- Los archivos de PM2.5 son provisionales hasta descargar el primer archivo real de SIATA. Los de tráfico siguen el diccionario oficial de 2022: contrástalo con el diccionario JSON vigente del portal. -->
+<!-- Los archivos de PM2.5 son provisionales hasta descargar el primer archivo real de SIATA. Los de tráfico siguen el diccionario oficial de 2022 (debo revisar info más reciente) -->
 
 ## Convenciones
 
@@ -137,7 +137,7 @@ Una fila por hora, estación y radio.
 | Fuente | Frecuencia de actualización | Si cambia la fuente |
 |---|---|---|
 | Tráfico (SIMM) | Mensual | Si cambian columnas, tipos o unidades, la ejecución falla antes de publicar; se cuarentenan filas fuera de rango y se marca el mes como incompleto si faltan datos |
-| PM2.5 (SIATA/AMVA) | Horaria en origen (por confirmar) | Si cambia la ruta o el formato, se usa la última copia validada con su fecha y se documenta el corte |
+| PM2.5 (SIATA/AMVA) | Horaria en origen (por confirmar..revisar) | Si cambia la ruta o el formato, se usa la última copia validada con su fecha y se documenta el corte |
 | Meteorología (Open-Meteo) | Diaria, con retraso de días | Si cambian variables o licencia, se detiene y se reevalúa |
 
 Cada cambio aceptado sube la versión del contrato (`v1.0` a `v1.1`) y queda en el historial de Git. Los datos descargados se conservan con su fecha de descarga para reproducir resultados previos.
