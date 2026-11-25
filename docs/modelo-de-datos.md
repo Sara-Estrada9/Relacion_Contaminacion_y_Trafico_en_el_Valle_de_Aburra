@@ -4,6 +4,7 @@ Los archivos de PM2.5 son provisionales hasta descargar el primer archivo real d
 
 
 ## Diagrama de relaciones
+(El diagrama tiene en cuenta extracción de data de open-meteo, lo cual todavía se sigue estudiando y no es definitivo)
 
 ```mermaid
 erDiagram
