@@ -6,8 +6,8 @@
 
 Preguntas derivadas:
 
-- ¿Con qué diferencia temporal (en horas) el tráfico se asocia con cambios en PM2.5?
-- ¿Cuánto de esa relación persiste después de controlar la meteorología (viento, lluvia, temperatura, humedad)?
+- ¿Con qué diferencia temporal (en horas o bloque de horas) el tráfico se asocia con cambios en PM2.5?
+- ¿Cuánto de esa relación persiste teniendo en la meteorología (viento, lluvia, temperatura, humedad) e incluso geografía?
 - ¿Es distinta la relación en estaciones de tráfico frente a estaciones de representatividad poblacional?
 
 ## 2. Quién decide
@@ -25,8 +25,6 @@ Preguntas derivadas:
 | Meteorología | Open-Meteo Historical Weather (ERA5 / ERA5-Land) | https://open-meteo.com/en/docs | Horaria | Diaria, con retraso de días | CC BY 4.0 (atribución obligatoria) | Variables en proceso de prueba |
 
 **Fuente descartada para contaminantes:** Open-Meteo Air Quality (recomendada en clase). Es un modelo (CAMS) de resolución gruesa, no una medición, y un valle estrecho queda mal representado.
-
-Diccionario del dato de tráfico (2022): https://www.medellin.gov.co/es/wp-content/uploads/2023/09/Diccionario-BD-de-trafico-SMM.pdf
 
 ## 4. Alcance
 
