@@ -33,12 +33,12 @@ Preguntas derivadas:
 - **Periodo:** ventana de solape de las tres fuentes, a definir tras la exploración. El tráfico abierto parte de marzo de 2017.
 - **Granularidad:** una fila por hora y estación (llaves).
 - **KPIs:** (quiero aplicar principalmente análisis de resultados con estadística descriptiva con datos históricos como indicadores iniciales)
-  1. Correlación de Spearman entre intensidad horaria y PM2.5, por estación.
-  2. Rezago óptimo (horas) de máxima correlación.
-  3. Pendiente ajustada: µg/m³ de PM2.5 por cada +1.000 veh/h, controlando meteorología.
-  4. R² incremental del tráfico sobre un modelo solo con meteorología.
-  5. Diferencia mediana de PM2.5 entre hora pico y hora valle.
-  6. Cobertura: % de horas con datos válidos pareados.
+1. Correlación de Spearman entre intensidad horaria y PM2.5, por estación.
+2. Rezago óptimo (horas) de máxima correlación.
+3. Pendiente ajustada: µg/m³ de PM2.5 por cada +1.000 veh/h, controlando meteorología.
+4. R² incremental del tráfico sobre un modelo solo con meteorología.
+5. Diferencia mediana de PM2.5 entre hora pico y hora valle.
+6. Cobertura: % de horas con datos válidos pareados.
 - **Frecuencia:** ejecución mensual y verificación semanal de esquema y disponibilidad. (depende principalmente de la vinculación y que la carga de data tenga una temporalidad o una frecuencia de carga que coincida para el modelo... revisar)
 - **Destino del resultado:** este repositorio (documentación, tabla de KPIs, informes). 
 - **Terminado cuando:**
